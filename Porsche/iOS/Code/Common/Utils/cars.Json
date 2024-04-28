@@ -1,0 +1,98 @@
+[
+  {
+    "modelName": "4SCarerra",
+    "launchTime": 3.4,
+    "horsePower": 443,
+    "topSpeed": 190,
+    "co2": "238.0",
+    "consumption": "10.0",
+    "torque": [
+      { "rpm": 1000, "torqueValue": 450 },
+      { "rpm": 1500, "torqueValue": 460 },
+      { "rpm": 2000, "torqueValue": 470 },
+      { "rpm": 2500, "torqueValue": 480 },
+      { "rpm": 3000, "torqueValue": 490 }
+    ],
+    "name": "Carrera 4S"
+  },
+  {
+    "modelName": "911TurboSOld",
+    "launchTime": 2.6,
+    "horsePower": 640,
+    "topSpeed": 205,
+    "co2": "281.0",
+    "consumption": "11.5",
+    "torque": [
+      { "rpm": 1000, "torqueValue": 600 },
+      { "rpm": 1500, "torqueValue": 610 },
+      { "rpm": 2000, "torqueValue": 620 },
+      { "rpm": 2500, "torqueValue": 630 },
+      { "rpm": 3000, "torqueValue": 640 }
+    ],
+    "name": "TurboS"
+  },
+  {
+    "modelName": "cayman",
+    "launchTime": 4.9,
+    "horsePower": 394,
+    "topSpeed": 170,
+    "co2": "195.0",
+    "consumption": "8.2",
+    "torque": [
+      { "rpm": 1000, "torqueValue": 380 },
+      { "rpm": 1500, "torqueValue": 390 },
+      { "rpm": 2000, "torqueValue": 400 },
+      { "rpm": 2500, "torqueValue": 410 },
+      { "rpm": 3000, "torqueValue": 420 }
+    ],
+    "name": "Cayman"
+  },
+  {
+    "modelName": "918",
+    "launchTime": 2.6,
+    "horsePower": 887,
+    "topSpeed": 214,
+    "co2": "296.0",
+    "consumption": "13.0",
+    "torque": [
+      { "rpm": 1000, "torqueValue": 800 },
+      { "rpm": 1500, "torqueValue": 810 },
+      { "rpm": 2000, "torqueValue": 820 },
+      { "rpm": 2500, "torqueValue": 830 },
+      { "rpm": 3000, "torqueValue": 840 }
+    ],
+    "name": "918"
+  },
+  {
+    "modelName": "GT3RS",
+    "launchTime": 3.0,
+    "horsePower": 520,
+    "topSpeed": 198,
+    "co2": "255.0",
+    "consumption": "10.5",
+    "torque": [
+      { "rpm": 1000, "torqueValue": 500 },
+      { "rpm": 1500, "torqueValue": 510 },
+      { "rpm": 2000, "torqueValue": 520 },
+      { "rpm": 2500, "torqueValue": 530 },
+      { "rpm": 3000, "torqueValue": 540 }
+    ],
+    "name": "GT3 RS"
+  },
+  {
+    "modelName": "911RWB993",
+    "launchTime": 4.0,
+    "horsePower": 430,
+    "topSpeed": 188,
+    "co2": "240.0",
+    "consumption": "9.8",
+    "torque": [
+      { "rpm": 1000, "torqueValue": 440 },
+      { "rpm": 1500, "torqueValue": 450 },
+      { "rpm": 2000, "torqueValue": 460 },
+      { "rpm": 2500, "torqueValue": 470 },
+      { "rpm": 3000, "torqueValue": 480 }
+    ],
+    "name": "RWB 993"
+  }
+]

@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D904C2D52BC0C52F007789F4 /* CarInfo.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C2D42BC0C52E007789F4 /* CarInfo.swift */; };
+		D904C2D72BC0CD1A007789F4 /* WltpSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C2D62BC0CD1A007789F4 /* WltpSection.swift */; };
+		D90CF3972BDD37FB007CBDB1 /* TorqueSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CF3962BDD37FB007CBDB1 /* TorqueSection.swift */; };
+		D90CF3992BDD4F91007CBDB1 /* CarsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CF3982BDD4F91007CBDB1 /* CarsSection.swift */; };
+		D90CF39D2BDD89AD007CBDB1 /* 911TurboSOld.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF39C2BDD89AD007CBDB1 /* 911TurboSOld.scn */; };
+		D90CF3A52BDD9250007CBDB1 /* 4SCarerra.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3A42BDD9250007CBDB1 /* 4SCarerra.scn */; };
+		D90CF3A72BDD9267007CBDB1 /* 918.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3A62BDD9267007CBDB1 /* 918.scn */; };
+		D90CF3A92BDD9278007CBDB1 /* cayman.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3A82BDD9278007CBDB1 /* cayman.scn */; };
+		D90CF3AF2BDD9787007CBDB1 /* GT3RS.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3AE2BDD9787007CBDB1 /* GT3RS.scn */; };
+		D90CF3B12BDD9799007CBDB1 /* 911RWB993.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3B02BDD9799007CBDB1 /* 911RWB993.scn */; };
+		D90CF3B32BDE7962007CBDB1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CF3B22BDE7962007CBDB1 /* Car.swift */; };
+		D90CF3B52BDE7A9F007CBDB1 /* cars.Json in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3B42BDE7A9F007CBDB1 /* cars.Json */; };
+		D90CF3B72BDE7DC0007CBDB1 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CF3B62BDE7DC0007CBDB1 /* CarViewModel.swift */; };
+		D93FD2522BA5E4AC0018F361 /* PorscheApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD2512BA5E4AC0018F361 /* PorscheApp.swift */; };
+		D93FD2542BA5E4AC0018F361 /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD2532BA5E4AC0018F361 /* MainView.swift */; };
+		D93FD2562BA5E4AF0018F361 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2552BA5E4AF0018F361 /* Assets.xcassets */; };
+		D93FD25A2BA5E4AF0018F361 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2592BA5E4AF0018F361 /* Preview Assets.xcassets */; };
+		D93FD26C2BA5E6580018F361 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD26B2BA5E6580018F361 /* FontManager.swift */; };
+		D93FD2852BA602DF0018F361 /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD2842BA602DF0018F361 /* SceneKitView.swift */; };
+		D93FD2C42BA681320018F361 /* 911porschav3title.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2C32BA681310018F361 /* 911porschav3title.ttf */; };
+		D93FD2C92BA6818C0018F361 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2C72BA6818C0018F361 /* Poppins-Bold.ttf */; };
+		D93FD2CA2BA6818C0018F361 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2C82BA6818C0018F361 /* Poppins-Medium.ttf */; };
+		D9E5E4EF2BA729A9006EB1F3 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E5E4EE2BA729A9006EB1F3 /* CustomSlider.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D904C2D42BC0C52E007789F4 /* CarInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfo.swift; sourceTree = "<group>"; };
+		D904C2D62BC0CD1A007789F4 /* WltpSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WltpSection.swift; sourceTree = "<group>"; };
+		D90CF3962BDD37FB007CBDB1 /* TorqueSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorqueSection.swift; sourceTree = "<group>"; };
+		D90CF3982BDD4F91007CBDB1 /* CarsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsSection.swift; sourceTree = "<group>"; };
+		D90CF39C2BDD89AD007CBDB1 /* 911TurboSOld.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 911TurboSOld.scn; sourceTree = "<group>"; };
+		D90CF3A42BDD9250007CBDB1 /* 4SCarerra.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 4SCarerra.scn; sourceTree = "<group>"; };
+		D90CF3A62BDD9267007CBDB1 /* 918.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 918.scn; sourceTree = "<group>"; };
+		D90CF3A82BDD9278007CBDB1 /* cayman.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cayman.scn; sourceTree = "<group>"; };
+		D90CF3AE2BDD9787007CBDB1 /* GT3RS.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = GT3RS.scn; sourceTree = "<group>"; };
+		D90CF3B02BDD9799007CBDB1 /* 911RWB993.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 911RWB993.scn; sourceTree = "<group>"; };
+		D90CF3B22BDE7962007CBDB1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		D90CF3B42BDE7A9F007CBDB1 /* cars.Json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cars.Json; sourceTree = "<group>"; };
+		D90CF3B62BDE7DC0007CBDB1 /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
+		D93FD24E2BA5E4AC0018F361 /* Porsche.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Porsche.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D93FD2512BA5E4AC0018F361 /* PorscheApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorscheApp.swift; sourceTree = "<group>"; };
+		D93FD2532BA5E4AC0018F361 /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		D93FD2552BA5E4AF0018F361 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D93FD2572BA5E4AF0018F361 /* Porsche.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Porsche.entitlements; sourceTree = "<group>"; };
+		D93FD2592BA5E4AF0018F361 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D93FD26B2BA5E6580018F361 /* FontManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FontManager.swift; sourceTree = "<group>"; };
+		D93FD2732BA5E7D10018F361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D93FD2842BA602DF0018F361 /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
+		D93FD2C32BA681310018F361 /* 911porschav3title.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 911porschav3title.ttf; sourceTree = "<group>"; };
+		D93FD2C72BA6818C0018F361 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		D93FD2C82BA6818C0018F361 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D9E5E4EE2BA729A9006EB1F3 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D93FD24B2BA5E4AC0018F361 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D93FD2452BA5E4AC0018F361 = {
+			isa = PBXGroup;
+			children = (
+				D93FD2502BA5E4AC0018F361 /* Porsche */,
+				D93FD24F2BA5E4AC0018F361 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D93FD24F2BA5E4AC0018F361 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD24E2BA5E4AC0018F361 /* Porsche.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D93FD2502BA5E4AC0018F361 /* Porsche */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2602BA5E5600018F361 /* iOS */,
+			);
+			path = Porsche;
+			sourceTree = "<group>";
+		};
+		D93FD2582BA5E4AF0018F361 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2592BA5E4AF0018F361 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D93FD2602BA5E5600018F361 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2632BA5E5B00018F361 /* Code */,
+				D93FD2612BA5E5850018F361 /* Resources */,
+			);
+			path = iOS;
+			sourceTree = "<group>";
+		};
+		D93FD2612BA5E5850018F361 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				D99C225A2BDF072500A4398C /* 3DModels */,
+				D93FD2732BA5E7D10018F361 /* Info.plist */,
+				D93FD2622BA5E59D0018F361 /* Fonts */,
+				D93FD2552BA5E4AF0018F361 /* Assets.xcassets */,
+				D93FD2572BA5E4AF0018F361 /* Porsche.entitlements */,
+				D93FD2582BA5E4AF0018F361 /* Preview Content */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		D93FD2622BA5E59D0018F361 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2C72BA6818C0018F361 /* Poppins-Bold.ttf */,
+				D93FD2C82BA6818C0018F361 /* Poppins-Medium.ttf */,
+				D93FD2C32BA681310018F361 /* 911porschav3title.ttf */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		D93FD2632BA5E5B00018F361 /* Code */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2642BA5E5DB0018F361 /* Common */,
+				D93FD2662BA5E5F30018F361 /* Features */,
+			);
+			path = Code;
+			sourceTree = "<group>";
+		};
+		D93FD2642BA5E5DB0018F361 /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD26A2BA5E6460018F361 /* Utils */,
+				D93FD2692BA5E6250018F361 /* Extensions */,
+				D93FD2652BA5E5E30018F361 /* Controllers */,
+			);
+			path = Common;
+			sourceTree = "<group>";
+		};
+		D93FD2652BA5E5E30018F361 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2512BA5E4AC0018F361 /* PorscheApp.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		D93FD2662BA5E5F30018F361 /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2672BA5E6020018F361 /* Main */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		D93FD2672BA5E6020018F361 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2752BA5E9970018F361 /* Models */,
+				D93FD2742BA5E9870018F361 /* ViewModels */,
+				D93FD2682BA5E6180018F361 /* Views */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		D93FD2682BA5E6180018F361 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2762BA5E9AC0018F361 /* Components */,
+				D93FD2532BA5E4AC0018F361 /* MainView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D93FD2692BA5E6250018F361 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D93FD26A2BA5E6460018F361 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D90CF3B42BDE7A9F007CBDB1 /* cars.Json */,
+				D93FD26B2BA5E6580018F361 /* FontManager.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		D93FD2742BA5E9870018F361 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D90CF3B62BDE7DC0007CBDB1 /* CarViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D93FD2752BA5E9970018F361 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D90CF3B22BDE7962007CBDB1 /* Car.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		D93FD2762BA5E9AC0018F361 /* Components */ = {
+			isa = PBXGroup;
+			children = (
+				D93FD2842BA602DF0018F361 /* SceneKitView.swift */,
+				D9E5E4EE2BA729A9006EB1F3 /* CustomSlider.swift */,
+				D904C2D42BC0C52E007789F4 /* CarInfo.swift */,
+				D904C2D62BC0CD1A007789F4 /* WltpSection.swift */,
+				D90CF3962BDD37FB007CBDB1 /* TorqueSection.swift */,
+				D90CF3982BDD4F91007CBDB1 /* CarsSection.swift */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		D99C225A2BDF072500A4398C /* 3DModels */ = {
+			isa = PBXGroup;
+			children = (
+				D90CF3B02BDD9799007CBDB1 /* 911RWB993.scn */,
+				D90CF3AE2BDD9787007CBDB1 /* GT3RS.scn */,
+				D90CF3A42BDD9250007CBDB1 /* 4SCarerra.scn */,
+				D90CF3A62BDD9267007CBDB1 /* 918.scn */,
+				D90CF3A82BDD9278007CBDB1 /* cayman.scn */,
+				D90CF39C2BDD89AD007CBDB1 /* 911TurboSOld.scn */,
+			);
+			path = 3DModels;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D93FD24D2BA5E4AC0018F361 /* Porsche */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D93FD25D2BA5E4AF0018F361 /* Build configuration list for PBXNativeTarget "Porsche" */;
+			buildPhases = (
+				D93FD24A2BA5E4AC0018F361 /* Sources */,
+				D93FD24B2BA5E4AC0018F361 /* Frameworks */,
+				D93FD24C2BA5E4AC0018F361 /* Resources */,
+				D93FD2832BA600470018F361 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Porsche;
+			packageProductDependencies = (
+			);
+			productName = Porsche;
+			productReference = D93FD24E2BA5E4AC0018F361 /* Porsche.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D93FD2462BA5E4AC0018F361 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					D93FD24D2BA5E4AC0018F361 = {
+						CreatedOnToolsVersion = 15.2;
+					};
+				};
+			};
+			buildConfigurationList = D93FD2492BA5E4AC0018F361 /* Build configuration list for PBXProject "Porsche" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D93FD2452BA5E4AC0018F361;
+			packageReferences = (
+			);
+			productRefGroup = D93FD24F2BA5E4AC0018F361 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D93FD24D2BA5E4AC0018F361 /* Porsche */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D93FD24C2BA5E4AC0018F361 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93FD25A2BA5E4AF0018F361 /* Preview Assets.xcassets in Resources */,
+				D90CF3A72BDD9267007CBDB1 /* 918.scn in Resources */,
+				D90CF3A92BDD9278007CBDB1 /* cayman.scn in Resources */,
+				D93FD2CA2BA6818C0018F361 /* Poppins-Medium.ttf in Resources */,
+				D90CF3B12BDD9799007CBDB1 /* 911RWB993.scn in Resources */,
+				D93FD2C92BA6818C0018F361 /* Poppins-Bold.ttf in Resources */,
+				D90CF39D2BDD89AD007CBDB1 /* 911TurboSOld.scn in Resources */,
+				D90CF3B52BDE7A9F007CBDB1 /* cars.Json in Resources */,
+				D90CF3AF2BDD9787007CBDB1 /* GT3RS.scn in Resources */,
+				D90CF3A52BDD9250007CBDB1 /* 4SCarerra.scn in Resources */,
+				D93FD2C42BA681320018F361 /* 911porschav3title.ttf in Resources */,
+				D93FD2562BA5E4AF0018F361 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		D93FD2832BA600470018F361 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D93FD24A2BA5E4AC0018F361 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D93FD2542BA5E4AC0018F361 /* MainView.swift in Sources */,
+				D904C2D52BC0C52F007789F4 /* CarInfo.swift in Sources */,
+				D9E5E4EF2BA729A9006EB1F3 /* CustomSlider.swift in Sources */,
+				D90CF3992BDD4F91007CBDB1 /* CarsSection.swift in Sources */,
+				D904C2D72BC0CD1A007789F4 /* WltpSection.swift in Sources */,
+				D93FD26C2BA5E6580018F361 /* FontManager.swift in Sources */,
+				D90CF3B72BDE7DC0007CBDB1 /* CarViewModel.swift in Sources */,
+				D90CF3B32BDE7962007CBDB1 /* Car.swift in Sources */,
+				D90CF3972BDD37FB007CBDB1 /* TorqueSection.swift in Sources */,
+				D93FD2522BA5E4AC0018F361 /* PorscheApp.swift in Sources */,
+				D93FD2852BA602DF0018F361 /* SceneKitView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D93FD25B2BA5E4AF0018F361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D93FD25C2BA5E4AF0018F361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		D93FD25E2BA5E4AF0018F361 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Porsche/iOS/Resources/Porsche.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Porsche/iOS/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = AV6QJ2F83C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Porsche/iOS/Resources/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = med.Porsche;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D93FD25F2BA5E4AF0018F361 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Porsche/iOS/Resources/Porsche.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Porsche/iOS/Resources/Preview Content\"";
+				DEVELOPMENT_TEAM = AV6QJ2F83C;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Porsche/iOS/Resources/Info.plist;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = med.Porsche;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D93FD2492BA5E4AC0018F361 /* Build configuration list for PBXProject "Porsche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93FD25B2BA5E4AF0018F361 /* Debug */,
+				D93FD25C2BA5E4AF0018F361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D93FD25D2BA5E4AF0018F361 /* Build configuration list for PBXNativeTarget "Porsche" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D93FD25E2BA5E4AF0018F361 /* Debug */,
+				D93FD25F2BA5E4AF0018F361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D93FD2462BA5E4AC0018F361 /* Project object */;
+}
