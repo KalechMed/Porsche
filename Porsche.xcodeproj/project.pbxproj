@@ -11,12 +11,6 @@
 		D904C2D72BC0CD1A007789F4 /* WltpSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D904C2D62BC0CD1A007789F4 /* WltpSection.swift */; };
 		D90CF3972BDD37FB007CBDB1 /* TorqueSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CF3962BDD37FB007CBDB1 /* TorqueSection.swift */; };
 		D90CF3992BDD4F91007CBDB1 /* CarsSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CF3982BDD4F91007CBDB1 /* CarsSection.swift */; };
-		D90CF39D2BDD89AD007CBDB1 /* 911TurboSOld.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF39C2BDD89AD007CBDB1 /* 911TurboSOld.scn */; };
-		D90CF3A52BDD9250007CBDB1 /* 4SCarerra.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3A42BDD9250007CBDB1 /* 4SCarerra.scn */; };
-		D90CF3A72BDD9267007CBDB1 /* 918.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3A62BDD9267007CBDB1 /* 918.scn */; };
-		D90CF3A92BDD9278007CBDB1 /* cayman.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3A82BDD9278007CBDB1 /* cayman.scn */; };
-		D90CF3AF2BDD9787007CBDB1 /* GT3RS.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3AE2BDD9787007CBDB1 /* GT3RS.scn */; };
-		D90CF3B12BDD9799007CBDB1 /* 911RWB993.scn in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3B02BDD9799007CBDB1 /* 911RWB993.scn */; };
 		D90CF3B32BDE7962007CBDB1 /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CF3B22BDE7962007CBDB1 /* Car.swift */; };
 		D90CF3B52BDE7A9F007CBDB1 /* cars.Json in Resources */ = {isa = PBXBuildFile; fileRef = D90CF3B42BDE7A9F007CBDB1 /* cars.Json */; };
 		D90CF3B72BDE7DC0007CBDB1 /* CarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90CF3B62BDE7DC0007CBDB1 /* CarViewModel.swift */; };
@@ -37,12 +31,6 @@
 		D904C2D62BC0CD1A007789F4 /* WltpSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WltpSection.swift; sourceTree = "<group>"; };
 		D90CF3962BDD37FB007CBDB1 /* TorqueSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorqueSection.swift; sourceTree = "<group>"; };
 		D90CF3982BDD4F91007CBDB1 /* CarsSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsSection.swift; sourceTree = "<group>"; };
-		D90CF39C2BDD89AD007CBDB1 /* 911TurboSOld.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 911TurboSOld.scn; sourceTree = "<group>"; };
-		D90CF3A42BDD9250007CBDB1 /* 4SCarerra.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 4SCarerra.scn; sourceTree = "<group>"; };
-		D90CF3A62BDD9267007CBDB1 /* 918.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 918.scn; sourceTree = "<group>"; };
-		D90CF3A82BDD9278007CBDB1 /* cayman.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cayman.scn; sourceTree = "<group>"; };
-		D90CF3AE2BDD9787007CBDB1 /* GT3RS.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = GT3RS.scn; sourceTree = "<group>"; };
-		D90CF3B02BDD9799007CBDB1 /* 911RWB993.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 911RWB993.scn; sourceTree = "<group>"; };
 		D90CF3B22BDE7962007CBDB1 /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
 		D90CF3B42BDE7A9F007CBDB1 /* cars.Json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = cars.Json; sourceTree = "<group>"; };
 		D90CF3B62BDE7DC0007CBDB1 /* CarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarViewModel.swift; sourceTree = "<group>"; };
@@ -116,7 +104,6 @@
 		D93FD2612BA5E5850018F361 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D99C225A2BDF072500A4398C /* 3DModels */,
 				D93FD2732BA5E7D10018F361 /* Info.plist */,
 				D93FD2622BA5E59D0018F361 /* Fonts */,
 				D93FD2552BA5E4AF0018F361 /* Assets.xcassets */,
@@ -235,19 +222,6 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
-		D99C225A2BDF072500A4398C /* 3DModels */ = {
-			isa = PBXGroup;
-			children = (
-				D90CF3B02BDD9799007CBDB1 /* 911RWB993.scn */,
-				D90CF3AE2BDD9787007CBDB1 /* GT3RS.scn */,
-				D90CF3A42BDD9250007CBDB1 /* 4SCarerra.scn */,
-				D90CF3A62BDD9267007CBDB1 /* 918.scn */,
-				D90CF3A82BDD9278007CBDB1 /* cayman.scn */,
-				D90CF39C2BDD89AD007CBDB1 /* 911TurboSOld.scn */,
-			);
-			path = 3DModels;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -312,15 +286,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				D93FD25A2BA5E4AF0018F361 /* Preview Assets.xcassets in Resources */,
-				D90CF3A72BDD9267007CBDB1 /* 918.scn in Resources */,
-				D90CF3A92BDD9278007CBDB1 /* cayman.scn in Resources */,
 				D93FD2CA2BA6818C0018F361 /* Poppins-Medium.ttf in Resources */,
-				D90CF3B12BDD9799007CBDB1 /* 911RWB993.scn in Resources */,
 				D93FD2C92BA6818C0018F361 /* Poppins-Bold.ttf in Resources */,
-				D90CF39D2BDD89AD007CBDB1 /* 911TurboSOld.scn in Resources */,
 				D90CF3B52BDE7A9F007CBDB1 /* cars.Json in Resources */,
-				D90CF3AF2BDD9787007CBDB1 /* GT3RS.scn in Resources */,
-				D90CF3A52BDD9250007CBDB1 /* 4SCarerra.scn in Resources */,
 				D93FD2C42BA681320018F361 /* 911porschav3title.ttf in Resources */,
 				D93FD2562BA5E4AF0018F361 /* Assets.xcassets in Resources */,
 			);
