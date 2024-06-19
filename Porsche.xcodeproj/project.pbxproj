@@ -21,9 +21,17 @@
 		D93FD26C2BA5E6580018F361 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD26B2BA5E6580018F361 /* FontManager.swift */; };
 		D93FD2852BA602DF0018F361 /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD2842BA602DF0018F361 /* SceneKitView.swift */; };
 		D93FD2C42BA681320018F361 /* 911porschav3title.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2C32BA681310018F361 /* 911porschav3title.ttf */; };
-		D93FD2C92BA6818C0018F361 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2C72BA6818C0018F361 /* Poppins-Bold.ttf */; };
-		D93FD2CA2BA6818C0018F361 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2C82BA6818C0018F361 /* Poppins-Medium.ttf */; };
-		D9E5E4EF2BA729A9006EB1F3 /* CustomSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E5E4EE2BA729A9006EB1F3 /* CustomSlider.swift */; };
+		D9A1B30C2BDFDFC8004898F3 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9A1B30A2BDFDFC8004898F3 /* Poppins-Bold.ttf */; };
+		D9A1B30D2BDFDFC8004898F3 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9A1B30B2BDFDFC8004898F3 /* Poppins-Medium.ttf */; };
+		D9BBA7632BE833E80084E022 /* Torque.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBA7622BE833E80084E022 /* Torque.swift */; };
+		D9BBA7822BE85B5A0084E022 /* CarItemView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBA7812BE85B5A0084E022 /* CarItemView.swift */; };
+		D9D525072C233EBE008DCDA4 /* toUIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9D525062C233EBE008DCDA4 /* toUIColor.swift */; };
+		D9D525162C2348D4008DCDA4 /* cayman.scn in Resources */ = {isa = PBXBuildFile; fileRef = D9D5250F2C2348D4008DCDA4 /* cayman.scn */; };
+		D9D5251A2C2349C6008DCDA4 /* 918.scn in Resources */ = {isa = PBXBuildFile; fileRef = D9D525192C2349C6008DCDA4 /* 918.scn */; };
+		D9D5251C2C2349DE008DCDA4 /* 930Turbo.scn in Resources */ = {isa = PBXBuildFile; fileRef = D9D5251B2C2349DE008DCDA4 /* 930Turbo.scn */; };
+		D9D5251E2C234A05008DCDA4 /* GT3RS.scn in Resources */ = {isa = PBXBuildFile; fileRef = D9D5251D2C234A05008DCDA4 /* GT3RS.scn */; };
+		D9D525202C234A0E008DCDA4 /* RWB993.scn in Resources */ = {isa = PBXBuildFile; fileRef = D9D5251F2C234A0E008DCDA4 /* RWB993.scn */; };
+		D9D5252A2C235472008DCDA4 /* 4SCarrera.scn in Resources */ = {isa = PBXBuildFile; fileRef = D9D525272C234F9E008DCDA4 /* 4SCarrera.scn */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,9 +52,17 @@
 		D93FD2732BA5E7D10018F361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93FD2842BA602DF0018F361 /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
 		D93FD2C32BA681310018F361 /* 911porschav3title.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 911porschav3title.ttf; sourceTree = "<group>"; };
-		D93FD2C72BA6818C0018F361 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../Poppins-Bold.ttf"; sourceTree = "<group>"; };
-		D93FD2C82BA6818C0018F361 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../Poppins-Medium.ttf"; sourceTree = "<group>"; };
-		D9E5E4EE2BA729A9006EB1F3 /* CustomSlider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSlider.swift; sourceTree = "<group>"; };
+		D9A1B30A2BDFDFC8004898F3 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../Poppins-Bold.ttf"; sourceTree = "<group>"; };
+		D9A1B30B2BDFDFC8004898F3 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../Poppins-Medium.ttf"; sourceTree = "<group>"; };
+		D9BBA7622BE833E80084E022 /* Torque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torque.swift; sourceTree = "<group>"; };
+		D9BBA7812BE85B5A0084E022 /* CarItemView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarItemView.swift; sourceTree = "<group>"; };
+		D9D525062C233EBE008DCDA4 /* toUIColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = toUIColor.swift; sourceTree = "<group>"; };
+		D9D5250F2C2348D4008DCDA4 /* cayman.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = cayman.scn; sourceTree = "<group>"; };
+		D9D525192C2349C6008DCDA4 /* 918.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 918.scn; sourceTree = "<group>"; };
+		D9D5251B2C2349DE008DCDA4 /* 930Turbo.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 930Turbo.scn; sourceTree = "<group>"; };
+		D9D5251D2C234A05008DCDA4 /* GT3RS.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = GT3RS.scn; sourceTree = "<group>"; };
+		D9D5251F2C234A0E008DCDA4 /* RWB993.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = RWB993.scn; sourceTree = "<group>"; };
+		D9D525272C234F9E008DCDA4 /* 4SCarrera.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = 4SCarrera.scn; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +120,13 @@
 		D93FD2612BA5E5850018F361 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				D9D525272C234F9E008DCDA4 /* 4SCarrera.scn */,
+				D9D525192C2349C6008DCDA4 /* 918.scn */,
+				D9D5251B2C2349DE008DCDA4 /* 930Turbo.scn */,
+				D9D5250F2C2348D4008DCDA4 /* cayman.scn */,
+				D9D5251D2C234A05008DCDA4 /* GT3RS.scn */,
+				D9D5251F2C234A0E008DCDA4 /* RWB993.scn */,
+				D9BBA7642BE83F4B0084E022 /* CarsModels */,
 				D93FD2732BA5E7D10018F361 /* Info.plist */,
 				D93FD2622BA5E59D0018F361 /* Fonts */,
 				D93FD2552BA5E4AF0018F361 /* Assets.xcassets */,
@@ -116,8 +139,8 @@
 		D93FD2622BA5E59D0018F361 /* Fonts */ = {
 			isa = PBXGroup;
 			children = (
-				D93FD2C72BA6818C0018F361 /* Poppins-Bold.ttf */,
-				D93FD2C82BA6818C0018F361 /* Poppins-Medium.ttf */,
+				D9A1B30A2BDFDFC8004898F3 /* Poppins-Bold.ttf */,
+				D9A1B30B2BDFDFC8004898F3 /* Poppins-Medium.ttf */,
 				D93FD2C32BA681310018F361 /* 911porschav3title.ttf */,
 			);
 			path = Fonts;
@@ -180,6 +203,7 @@
 		D93FD2692BA5E6250018F361 /* Extensions */ = {
 			isa = PBXGroup;
 			children = (
+				D9D525062C233EBE008DCDA4 /* toUIColor.swift */,
 			);
 			path = Extensions;
 			sourceTree = "<group>";
@@ -205,6 +229,7 @@
 			isa = PBXGroup;
 			children = (
 				D90CF3B22BDE7962007CBDB1 /* Car.swift */,
+				D9BBA7622BE833E80084E022 /* Torque.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -213,13 +238,20 @@
 			isa = PBXGroup;
 			children = (
 				D93FD2842BA602DF0018F361 /* SceneKitView.swift */,
-				D9E5E4EE2BA729A9006EB1F3 /* CustomSlider.swift */,
 				D904C2D42BC0C52E007789F4 /* CarInfo.swift */,
 				D904C2D62BC0CD1A007789F4 /* WltpSection.swift */,
 				D90CF3962BDD37FB007CBDB1 /* TorqueSection.swift */,
 				D90CF3982BDD4F91007CBDB1 /* CarsSection.swift */,
+				D9BBA7812BE85B5A0084E022 /* CarItemView.swift */,
 			);
 			path = Components;
+			sourceTree = "<group>";
+		};
+		D9BBA7642BE83F4B0084E022 /* CarsModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CarsModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +264,6 @@
 				D93FD24A2BA5E4AC0018F361 /* Sources */,
 				D93FD24B2BA5E4AC0018F361 /* Frameworks */,
 				D93FD24C2BA5E4AC0018F361 /* Resources */,
-				D93FD2832BA600470018F361 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -285,50 +316,37 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D5252A2C235472008DCDA4 /* 4SCarrera.scn in Resources */,
+				D9D5251A2C2349C6008DCDA4 /* 918.scn in Resources */,
 				D93FD25A2BA5E4AF0018F361 /* Preview Assets.xcassets in Resources */,
-				D93FD2CA2BA6818C0018F361 /* Poppins-Medium.ttf in Resources */,
-				D93FD2C92BA6818C0018F361 /* Poppins-Bold.ttf in Resources */,
+				D9A1B30C2BDFDFC8004898F3 /* Poppins-Bold.ttf in Resources */,
 				D90CF3B52BDE7A9F007CBDB1 /* cars.Json in Resources */,
 				D93FD2C42BA681320018F361 /* 911porschav3title.ttf in Resources */,
+				D9D5251E2C234A05008DCDA4 /* GT3RS.scn in Resources */,
+				D9D525162C2348D4008DCDA4 /* cayman.scn in Resources */,
 				D93FD2562BA5E4AF0018F361 /* Assets.xcassets in Resources */,
+				D9D525202C234A0E008DCDA4 /* RWB993.scn in Resources */,
+				D9D5251C2C2349DE008DCDA4 /* 930Turbo.scn in Resources */,
+				D9A1B30D2BDFDFC8004898F3 /* Poppins-Medium.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
-
-/* Begin PBXShellScriptBuildPhase section */
-		D93FD2832BA600470018F361 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			alwaysOutOfDate = 1;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-			);
-			inputPaths = (
-			);
-			outputFileListPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "if [[ \"$(uname -m)\" == arm64 ]]; then\n    export PATH=\"/opt/homebrew/bin:$PATH\"\nfi\n\nif which swiftlint > /dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi\n";
-		};
-/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		D93FD24A2BA5E4AC0018F361 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D9D525072C233EBE008DCDA4 /* toUIColor.swift in Sources */,
 				D93FD2542BA5E4AC0018F361 /* MainView.swift in Sources */,
 				D904C2D52BC0C52F007789F4 /* CarInfo.swift in Sources */,
-				D9E5E4EF2BA729A9006EB1F3 /* CustomSlider.swift in Sources */,
 				D90CF3992BDD4F91007CBDB1 /* CarsSection.swift in Sources */,
 				D904C2D72BC0CD1A007789F4 /* WltpSection.swift in Sources */,
+				D9BBA7822BE85B5A0084E022 /* CarItemView.swift in Sources */,
 				D93FD26C2BA5E6580018F361 /* FontManager.swift in Sources */,
 				D90CF3B72BDE7DC0007CBDB1 /* CarViewModel.swift in Sources */,
+				D9BBA7632BE833E80084E022 /* Torque.swift in Sources */,
 				D90CF3B32BDE7962007CBDB1 /* Car.swift in Sources */,
 				D90CF3972BDD37FB007CBDB1 /* TorqueSection.swift in Sources */,
 				D93FD2522BA5E4AC0018F361 /* PorscheApp.swift in Sources */,

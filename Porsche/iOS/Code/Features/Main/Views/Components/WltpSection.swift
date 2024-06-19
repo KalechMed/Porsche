@@ -8,24 +8,30 @@
 import SwiftUI
 
 struct WltpSection: View {
+    // MARK: - Variables
+    @EnvironmentObject var carViewModel: CarViewModel
+    var selectedCar: Car? {
+        carViewModel.selectedCar
+    }
+    // MARK: - View
     var body: some View {
         VStack(alignment: .leading, spacing: 60) {
             HStack {
                 Text("WLTP")
-                      .font(Poppins.medium.font(size: 18))
-                      .foregroundStyle(Color("lightG"))
-                      .padding(.trailing, 26)
+                    .font(Poppins.medium.font(size: 18))
+                    .foregroundStyle(Color("lightG"))
+                Spacer()
                 Image("arrowIcon")
                     .resizable()
-                    .frame(width: 8, height: 11)
+                    .frame(width: 8, height: 12)
             }
             VStack(spacing: 20) {
                 HStack {
-                    Image("co2Icon")
+                    Image("gasIcon")
                         .resizable()
                         .frame(width: 20, height: 20)
                     VStack(alignment: .leading) {
-                        Text("10,8 - 10,3")
+                        Text(selectedCar?.consumption ?? "no car selected")
                             .font(Poppins.medium.font(size: 12))
                             .foregroundStyle(Color("lightG"))
                         Text("1/100km")
@@ -34,11 +40,11 @@ struct WltpSection: View {
                     }
                 }
                 HStack {
-                    Image("gasIcon")
+                    Image("co2Icon")
                         .resizable()
                         .frame(width: 20, height: 20)
                     VStack(alignment: .leading) {
-                        Text("245 - 233")
+                        Text(selectedCar?.co2 ?? "no car selected")
                             .font(Poppins.medium.font(size: 12))
                             .foregroundStyle(Color("lightG"))
                         Text("g/km")
@@ -49,8 +55,8 @@ struct WltpSection: View {
             }
         }
         .padding()
-        .padding(.horizontal, 10)
         .background(Color("backgroundColor"))
         .clipShape(.rect(cornerRadius: 16))
+        .padding(.leading, 20)
     }
 }

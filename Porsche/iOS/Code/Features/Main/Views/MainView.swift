@@ -8,38 +8,45 @@
 import SwiftUI
 
 struct MainView: View {
-    @GestureState private var dragState = CGSize.zero
-    @State private var circlePosition: CGPoint = .zero
-    @State private var seekerPosition: CGFloat = 0.5
-    @ObservedObject var carViewModel = CarViewModel()
-    @State var selectedCar: Car
+    // MARK: - Variables
+    @StateObject var carViewModel: CarViewModel
+    @State var color: UIColor = .red
+    private var swiftUIColor: Color {
+            get { Color(uiColor: color) }
+            set { color = UIColor(newValue) }
+        }
+    // MARK: - View
     var body: some View {
-        GeometryReader { proxy in
-            let _: CGFloat = proxy.size.height
-                VStack {
-                    HStack {
-                        Image("Logo")
-                            .resizable()
-                            .frame(width: 30, height: 30)
-                            .padding(.leading, 10)
-                        Spacer()
-                        Text("porsche")
-                            .font(Porsche.regular.font(size: 18))
-                        Spacer()
-                    }
-                    SceneKitView(circlePosition: $circlePosition)
-                        .frame(height: 200)
-                    CustomSlider(circlePosition: $circlePosition)
-                    CarInfo(selectedCar: $selectedCar)
+        VStack{
+            ZStack {
+                HStack {
+                    Image("Logo")
+                        .resizable()
+                        .frame(width: 30, height: 30)
+                        .padding(.leading, 20)
+                    Text("porsche")
+                        .font(Porsche.regular.font(size: 18))
+                        .padding(.leading, 40)
+                    Spacer()
+                }
+                .padding(.bottom, 200)
+                ColorPicker("", selection: Binding(
+                    get: { swiftUIColor },
+                    set: { newColor in color = UIColor(newColor) }
+                ))
+                .padding(.trailing, 30)
+                .padding(.bottom, 50)
+                SceneKitView(color: $color)
+                    .frame(height: 200)
+                
+            }
+                    CarInfo()
                     HStack {
                         WltpSection()
-                        TorqueSection(selectedCar: $selectedCar)
+                        TorqueSection()
                     }
-                    CarsSection(selectedCar: $selectedCar, carViewModel: carViewModel)
-                        .padding(.horizontal, 20)
-                }
-                .ignoresSafeArea(.all)
-                .padding(.vertical, 1)
+                    CarsSection(carViewModel: carViewModel, selectedCar: $carViewModel.selectedCar)
             }
+            .environmentObject(carViewModel)
         }
 }

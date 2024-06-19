@@ -8,15 +8,20 @@
 import SwiftUI
 
 struct CarInfo: View {
-    @Binding var selectedCar: Car
+    // MARK: - Variables
+    @EnvironmentObject var carViewModel: CarViewModel
+    var selectedCar: Car? {
+        carViewModel.selectedCar
+    }
+    // MARK: - View
     var body: some View {
-        HStack(spacing: 40) {
+        HStack {
             VStack(spacing: 20) {
                 Image("timeIcon")
                     .resizable()
                     .frame(width: 20, height: 20)
                 VStack(spacing: 4) {
-                    Text(String(selectedCar.launchTime))
+                    Text(selectedCar?.launchTime ?? " no selected car ")
                         .font(Poppins.medium.font(size: 18))
                         .foregroundStyle(Color("lightG"))
                     Text("0 - 60 MPH")
@@ -24,12 +29,13 @@ struct CarInfo: View {
                         .foregroundStyle(Color("descriptionColor"))
                 }
             }
+            Spacer()
             VStack(spacing: 20) {
                 Image("horsePowerIcon")
                     .resizable()
-                    .frame(width: 13, height: 20)
+                    .frame(width: 14, height: 20)
                 VStack(spacing: 4) {
-                    Text("690 hp")
+                    Text(selectedCar?.horsePower ?? " no selected car ")
                         .font(Poppins.medium.font(size: 18))
                         .foregroundStyle(Color("lightG"))
                     Text("HORSEPOWER")
@@ -37,12 +43,13 @@ struct CarInfo: View {
                         .foregroundStyle(Color("descriptionColor"))
                 }
             }
+            Spacer()
             VStack(spacing: 20) {
                 Image("mphIcon")
                     .resizable()
                     .frame(width: 20, height: 20)
                 VStack(spacing: 4) {
-                    Text("190 mph")
+                    Text(selectedCar?.topSpeed ?? " no selected car ")
                         .font(Poppins.medium.font(size: 18))
                         .foregroundStyle(Color("lightG"))
                     Text("TOP SPEED")
@@ -55,5 +62,6 @@ struct CarInfo: View {
         .padding(.horizontal, 10)
         .background(Color("backgroundColor"))
         .clipShape(.rect(cornerRadius: 16))
+        .padding(.horizontal, 20)
     }
 }
