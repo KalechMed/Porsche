@@ -1,0 +1,110 @@
+[
+  {
+    "modelName": "930Turbo",
+    "launchTime": "4.9 s",
+    "horsePower": "320 hp",
+    "topSpeed": "165 mph",
+    "co2": "276.0",
+    "consumption": "14.2",
+    "torque": [
+      { "rpm": 0, "torqueValue": 0 },
+      { "rpm": 500, "torqueValue": 200 },
+      { "rpm": 1000, "torqueValue": 440 },
+      { "rpm": 2500, "torqueValue": 450 },
+      { "rpm": 3000, "torqueValue": 460 }
+    ],
+    "name": "930 Turbo",
+    "engineSound": "car1",
+    "range": 450
+  },
+  {
+    "modelName": "4SCarrera",
+    "launchTime": "3.4 s",
+    "horsePower": "443 hp",
+    "topSpeed": "190 mph",
+    "co2": "245 - 233",
+    "consumption": "10.8 - 10.3",
+    "torque": [
+      { "rpm": 0, "torqueValue": 0 },
+      { "rpm": 500, "torqueValue": 200 },
+      { "rpm": 1000, "torqueValue": 300 },
+      { "rpm": 2500, "torqueValue": 480 },
+      { "rpm": 3000, "torqueValue": 490 }
+    ],
+    "name": "Carrera 4S",
+    "engineSound": "car2",
+    "range": 592
+  },
+  {
+    "modelName": "RWB993",
+    "launchTime": "4.0 s",
+    "horsePower": "430 hp",
+    "topSpeed": "188 mph",
+    "co2": "240.0",
+    "consumption": "9.8",
+    "torque": [
+      { "rpm": 0, "torqueValue": 0 },
+      { "rpm": 500, "torqueValue": 200 },
+      { "rpm": 1000, "torqueValue": 300 },
+      { "rpm": 2500, "torqueValue": 470 },
+      { "rpm": 3000, "torqueValue": 480 }
+    ],
+    "name": "RWB 993",
+    "engineSound": "car3",
+    "range": 653
+  },
+  {
+    "modelName": "cayman",
+    "launchTime": "4.9 s",
+    "horsePower": "394 hp",
+    "topSpeed": "170 mph",
+    "co2": "195.0",
+    "consumption": "8.2",
+    "torque": [
+      { "rpm": 0, "torqueValue": 380 },
+      { "rpm": 500, "torqueValue": 390 },
+      { "rpm": 1000, "torqueValue": 400 },
+      { "rpm": 2500, "torqueValue": 410 },
+      { "rpm": 3000, "torqueValue": 420 }
+    ],
+    "name": "Cayman",
+    "engineSound": "car3",
+    "range": 780
+  },
+  {
+    "modelName": "918",
+    "launchTime": "2.6 s",
+    "horsePower": "887 hp",
+    "topSpeed": "214 mph",
+    "co2": "296.0",
+    "consumption": "13.0",
+    "torque": [
+      { "rpm": 0, "torqueValue": 800 },
+      { "rpm": 500, "torqueValue": 810 },
+      { "rpm": 1000, "torqueValue": 820 },
+      { "rpm": 2500, "torqueValue": 830 },
+      { "rpm": 3000, "torqueValue": 840 }
+    ],
+    "name": "918",
+    "engineSound": "car3",
+    "range": 492
+  },
+  {
+    "modelName": "GT3RS",
+    "launchTime": "3.0 s",
+    "horsePower": "520 hp",
+    "topSpeed": "198 mph",
+    "co2": "255.0",
+    "consumption": "10.5",
+    "torque": [
+      { "rpm": 0, "torqueValue": 500 },
+      { "rpm": 500, "torqueValue": 510 },
+      { "rpm": 1000, "torqueValue": 520 },
+      { "rpm": 2500, "torqueValue": 530 },
+      { "rpm": 3000, "torqueValue": 540 }
+    ],
+    "name": "GT3 RS",
+    "engineSound": "car3",
+    "range": 609
+  }
+]
