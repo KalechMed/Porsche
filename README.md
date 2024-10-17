@@ -74,7 +74,7 @@ PorscheShowcaseApp/
 
 ## Screenshots
 
-![App GIF](githubAssets/demo.gif)  
+![App GIF](https://drive.google.com/file/d/1KNx4m1K7y8k43IkgYAckgHFW5Y6WVAP_/view?usp=sharing)  
 *This is a GIF demonstrating the app's interactive features.*
 
 ## List of Frameworks
