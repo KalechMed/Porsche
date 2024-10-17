@@ -1,16 +1,18 @@
 [![swift-version](https://img.shields.io/badge/swift-5.9-brightgreen.svg)](https://github.com/apple/swift)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-![GitHub Workflow Status](https://img.shields.io/github/actions/workflow/status/yourusername/porsche-showcase-app/ios-build.yml)
+
 
 # Porsche Showcase iOS App
 
-This Porsche showcase app was built using **Swift**, **SwiftUI**, and **SceneKit** to display Porsche car models with interactive 3D features. The app delivers detailed car information and enhances the user experience with pan gestures and authentic engine sound effects.
+This Porsche app was built using **Swift**, **SwiftUI**, and **SceneKit** to display Porsche car models with interactive 3D features. It follows the **MVVM** (Model-View-ViewModel) architecture, promoting a clean separation of concerns for better maintainability. The app delivers detailed car information and enhances the user experience with pan gestures and authentic engine sound effects.
+
 
 ### Specifications
 
 - Minimum target of iOS 17.
 - 3D interaction with **SceneKit** for an immersive experience.
 - Realistic Porsche engine sound effects using **AVFoundation**.
+- Ability to customize the color of the car.
 - Supports dark mode only.
 
 ## Table of Contents
@@ -25,8 +27,6 @@ This Porsche showcase app was built using **Swift**, **SwiftUI**, and **SceneKit
 
 - [Swift 5.9](https://developer.apple.com/support/xcode/)
 - [Xcode 15 or higher](https://developer.apple.com/documentation/xcode-release-notes/xcode-15-release-notes)
-- [SceneKit Framework](https://developer.apple.com/documentation/scenekit)
-- [SwiftLint](https://github.com/realm/SwiftLint) for code linting
 
 ## Installation
 
@@ -49,13 +49,28 @@ Select your target device or simulator and press `Cmd + R` to build and run.
 ``
 ## Project Structure
 
-| Directory      | Description                                                                 |
-| -------------- | --------------------------------------------------------------------------- |
-| **Scenes/**    | Contains the UI views, such as 3D car display, information panels, and interactions. |
-| **Models/**    | Data models representing Porsche cars and their details.                    |
-| **Services/**  | Services such as sound management, data fetching, or user interactions for gestures. |
-| **Resources/** | Contains assets like 3D models, sound files for engine effects, and localizations. |
-| **Utilities/** | Utility functions, extensions, and reusable components.                    |
+The project is organized into a clean architecture that separates concerns and enhances maintainability. It follows the MVVM (Model-View-ViewModel) pattern, ensuring a clear distinction between the user interface and the business logic. Below is an overview of the project's directory structure:
+
+PorscheShowcaseApp/
+├── App/
+│   ├── Core/
+│   │   ├── Common/
+│   │   │   ├── Utils/
+│   │   │   ├── Extensions/
+│   │   │   └── Controllers/
+│   │   └── Features/
+│   │       ├── Models/
+│   │       ├── View/
+│   │       │   ├── Components/
+│   │       │   ├── Sections/
+│   │       │   └── MainView/
+│   │       └── ViewModels/
+│   └── Resources/
+│       ├── Fonts/
+│       ├── 3D Models/
+│       └── Sound Effects/
+
+
 
 ## Screenshots
 
@@ -65,7 +80,6 @@ Select your target device or simulator and press `Cmd + R` to build and run.
 ## Future Enhancements
 
 - **Augmented Reality (AR)**: Plan to integrate ARKit to allow users to visualize Porsche cars in their real-world environment.
-- **More Models**: Expand the collection of Porsche models available in the showcase.
 
 ## License
 
@@ -87,8 +101,8 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 For any inquiries, suggestions, or feedback, feel free to reach out:
 
 - **Email**: [medkalech@gmail.com](mailto:medkalech@gmail.com)
-- **LinkedIn**: [Your LinkedIn Profile](https://www.linkedin.com/in/medkalech)
-- **GitHub**: [Your GitHub Profile](https://github.com/medkalech)
+- **LinkedIn**: [linkedin.com/in/medkalech](https://www.linkedin.com/in/medkalech)
+- **Portfolio**: [medkalech.netlify.app/](https://medkalech.netlify.app/)
 
 Feel free to reach out for collaborations, job opportunities, or any questions!
 
