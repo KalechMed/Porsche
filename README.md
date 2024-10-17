@@ -51,6 +51,7 @@ Select your target device or simulator and press `Cmd + R` to build and run.
 
 The project is organized into a clean architecture that separates concerns and enhances maintainability. It follows the MVVM (Model-View-ViewModel) pattern, ensuring a clear distinction between the user interface and the business logic. Below is an overview of the project's directory structure:
 
+```
 PorscheShowcaseApp/
 ├── App/
 │   ├── Core/
@@ -69,8 +70,7 @@ PorscheShowcaseApp/
 │       ├── Fonts/
 │       ├── 3D Models/
 │       └── Sound Effects/
-
-
+```
 
 ## Screenshots
 
