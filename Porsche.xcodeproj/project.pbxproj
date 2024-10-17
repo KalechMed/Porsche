@@ -20,6 +20,9 @@
 		D93FD26C2BA5E6580018F361 /* FontManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD26B2BA5E6580018F361 /* FontManager.swift */; };
 		D93FD2852BA602DF0018F361 /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93FD2842BA602DF0018F361 /* SceneKitView.swift */; };
 		D93FD2C42BA681320018F361 /* 911porschav3title.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D93FD2C32BA681310018F361 /* 911porschav3title.ttf */; };
+		D98F8D4A2C875A0200E957CA /* PorscheTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F8D492C875A0200E957CA /* PorscheTests.swift */; };
+		D98F8D572C87F2B800E957CA /* PorscheUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F8D562C87F2B800E957CA /* PorscheUITests.swift */; };
+		D98F8D592C87F2B800E957CA /* PorscheUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F8D582C87F2B800E957CA /* PorscheUITestsLaunchTests.swift */; };
 		D9A1B30C2BDFDFC8004898F3 /* Poppins-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9A1B30A2BDFDFC8004898F3 /* Poppins-Bold.ttf */; };
 		D9A1B30D2BDFDFC8004898F3 /* Poppins-Medium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D9A1B30B2BDFDFC8004898F3 /* Poppins-Medium.ttf */; };
 		D9BBA7632BE833E80084E022 /* Torque.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9BBA7622BE833E80084E022 /* Torque.swift */; };
@@ -40,6 +43,23 @@
 		D9D5252A2C235472008DCDA4 /* 4SCarrera.scn in Resources */ = {isa = PBXBuildFile; fileRef = D9D525272C234F9E008DCDA4 /* 4SCarrera.scn */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		D98F8D4B2C875A0200E957CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D93FD2462BA5E4AC0018F361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93FD24D2BA5E4AC0018F361;
+			remoteInfo = Porsche;
+		};
+		D98F8D5A2C87F2B800E957CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D93FD2462BA5E4AC0018F361 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D93FD24D2BA5E4AC0018F361;
+			remoteInfo = Porsche;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		D904C2D42BC0C52E007789F4 /* CarInfo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarInfo.swift; sourceTree = "<group>"; };
 		D904C2D62BC0CD1A007789F4 /* WltpSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WltpSection.swift; sourceTree = "<group>"; };
@@ -58,6 +78,11 @@
 		D93FD2732BA5E7D10018F361 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D93FD2842BA602DF0018F361 /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
 		D93FD2C32BA681310018F361 /* 911porschav3title.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = 911porschav3title.ttf; sourceTree = "<group>"; };
+		D98F8D472C875A0200E957CA /* PorscheTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorscheTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98F8D492C875A0200E957CA /* PorscheTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorscheTests.swift; sourceTree = "<group>"; };
+		D98F8D542C87F2B800E957CA /* PorscheUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PorscheUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D98F8D562C87F2B800E957CA /* PorscheUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorscheUITests.swift; sourceTree = "<group>"; };
+		D98F8D582C87F2B800E957CA /* PorscheUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PorscheUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		D9A1B30A2BDFDFC8004898F3 /* Poppins-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Bold.ttf"; path = "../Poppins-Bold.ttf"; sourceTree = "<group>"; };
 		D9A1B30B2BDFDFC8004898F3 /* Poppins-Medium.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Poppins-Medium.ttf"; path = "../Poppins-Medium.ttf"; sourceTree = "<group>"; };
 		D9BBA7622BE833E80084E022 /* Torque.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Torque.swift; sourceTree = "<group>"; };
@@ -85,6 +110,20 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D98F8D442C875A0200E957CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98F8D512C87F2B800E957CA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -92,6 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				D93FD2502BA5E4AC0018F361 /* Porsche */,
+				D98F8D482C875A0200E957CA /* PorscheTests */,
+				D98F8D552C87F2B800E957CA /* PorscheUITests */,
 				D93FD24F2BA5E4AC0018F361 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -100,6 +141,8 @@
 			isa = PBXGroup;
 			children = (
 				D93FD24E2BA5E4AC0018F361 /* Porsche.app */,
+				D98F8D472C875A0200E957CA /* PorscheTests.xctest */,
+				D98F8D542C87F2B800E957CA /* PorscheUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -253,6 +296,23 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		D98F8D482C875A0200E957CA /* PorscheTests */ = {
+			isa = PBXGroup;
+			children = (
+				D98F8D492C875A0200E957CA /* PorscheTests.swift */,
+			);
+			path = PorscheTests;
+			sourceTree = "<group>";
+		};
+		D98F8D552C87F2B800E957CA /* PorscheUITests */ = {
+			isa = PBXGroup;
+			children = (
+				D98F8D562C87F2B800E957CA /* PorscheUITests.swift */,
+				D98F8D582C87F2B800E957CA /* PorscheUITestsLaunchTests.swift */,
+			);
+			path = PorscheUITests;
+			sourceTree = "<group>";
+		};
 		D9BBA7642BE83F4B0084E022 /* CarsModels */ = {
 			isa = PBXGroup;
 			children = (
@@ -311,6 +371,42 @@
 			productReference = D93FD24E2BA5E4AC0018F361 /* Porsche.app */;
 			productType = "com.apple.product-type.application";
 		};
+		D98F8D462C875A0200E957CA /* PorscheTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98F8D4F2C875A0200E957CA /* Build configuration list for PBXNativeTarget "PorscheTests" */;
+			buildPhases = (
+				D98F8D432C875A0200E957CA /* Sources */,
+				D98F8D442C875A0200E957CA /* Frameworks */,
+				D98F8D452C875A0200E957CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98F8D4C2C875A0200E957CA /* PBXTargetDependency */,
+			);
+			name = PorscheTests;
+			productName = PorscheTests;
+			productReference = D98F8D472C875A0200E957CA /* PorscheTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		D98F8D532C87F2B800E957CA /* PorscheUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D98F8D5C2C87F2B900E957CA /* Build configuration list for PBXNativeTarget "PorscheUITests" */;
+			buildPhases = (
+				D98F8D502C87F2B800E957CA /* Sources */,
+				D98F8D512C87F2B800E957CA /* Frameworks */,
+				D98F8D522C87F2B800E957CA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D98F8D5B2C87F2B800E957CA /* PBXTargetDependency */,
+			);
+			name = PorscheUITests;
+			productName = PorscheUITests;
+			productReference = D98F8D542C87F2B800E957CA /* PorscheUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -323,6 +419,14 @@
 				TargetAttributes = {
 					D93FD24D2BA5E4AC0018F361 = {
 						CreatedOnToolsVersion = 15.2;
+					};
+					D98F8D462C875A0200E957CA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D93FD24D2BA5E4AC0018F361;
+					};
+					D98F8D532C87F2B800E957CA = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = D93FD24D2BA5E4AC0018F361;
 					};
 				};
 			};
@@ -342,6 +446,8 @@
 			projectRoot = "";
 			targets = (
 				D93FD24D2BA5E4AC0018F361 /* Porsche */,
+				D98F8D462C875A0200E957CA /* PorscheTests */,
+				D98F8D532C87F2B800E957CA /* PorscheUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -366,6 +472,20 @@
 				D9D5251C2C2349DE008DCDA4 /* 930Turbo.scn in Resources */,
 				D9C81C862C32058700A08C50 /* car2.mp3 in Resources */,
 				D9A1B30D2BDFDFC8004898F3 /* Poppins-Medium.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98F8D452C875A0200E957CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98F8D522C87F2B800E957CA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -415,7 +535,37 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		D98F8D432C875A0200E957CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98F8D4A2C875A0200E957CA /* PorscheTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D98F8D502C87F2B800E957CA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D98F8D572C87F2B800E957CA /* PorscheUITests.swift in Sources */,
+				D98F8D592C87F2B800E957CA /* PorscheUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D98F8D4C2C875A0200E957CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D93FD24D2BA5E4AC0018F361 /* Porsche */;
+			targetProxy = D98F8D4B2C875A0200E957CA /* PBXContainerItemProxy */;
+		};
+		D98F8D5B2C87F2B800E957CA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D93FD24D2BA5E4AC0018F361 /* Porsche */;
+			targetProxy = D98F8D5A2C87F2B800E957CA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		D93FD25B2BA5E4AF0018F361 /* Debug */ = {
@@ -612,6 +762,90 @@
 			};
 			name = Release;
 		};
+		D98F8D4D2C875A0200E957CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV6QJ2F83C;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = med.PorscheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porsche.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Porsche";
+			};
+			name = Debug;
+		};
+		D98F8D4E2C875A0200E957CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV6QJ2F83C;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = med.PorscheTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Porsche.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Porsche";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D98F8D5D2C87F2B900E957CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV6QJ2F83C;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = med.PorscheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porsche;
+			};
+			name = Debug;
+		};
+		D98F8D5E2C87F2B900E957CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = AV6QJ2F83C;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = med.PorscheUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Porsche;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -629,6 +863,24 @@
 			buildConfigurations = (
 				D93FD25E2BA5E4AF0018F361 /* Debug */,
 				D93FD25F2BA5E4AF0018F361 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98F8D4F2C875A0200E957CA /* Build configuration list for PBXNativeTarget "PorscheTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98F8D4D2C875A0200E957CA /* Debug */,
+				D98F8D4E2C875A0200E957CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D98F8D5C2C87F2B900E957CA /* Build configuration list for PBXNativeTarget "PorscheUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D98F8D5D2C87F2B900E957CA /* Debug */,
+				D98F8D5E2C87F2B900E957CA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

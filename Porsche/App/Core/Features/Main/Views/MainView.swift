@@ -11,38 +11,40 @@ struct MainView: View {
     // MARK: - View
     var body: some View {
         ZStack {
-            VStack {
-                HStack {
-                    Spacer()
-                    Text("porsche")
-                        .font(Porsche.regular.font(size: 22))
-                        .padding(.top, 60)
+            ScrollView(.vertical, showsIndicators: false) {
+                VStack {
+                    HStack {
+                        Spacer()
+                        Text("porsche")
+                            .font(Porsche.regular.font(size: 22))
+                            .padding(.top, 60)
+                        Spacer()
+                    }
+                    SceneKitView(color: $color)
+                        .frame(height: 240)
+                    CarInfo()
+                    HStack {
+                        WltpSection()
+                        TorqueSection()
+                    }
+                    CarsSection(carViewModel: carViewModel)
+                }
+                VStack {
+                    HStack {
+                        Spacer()
+                        ColorPicker("", selection: Binding(
+                            get: { swiftUIColor },
+                            set: { newColor in color = UIColor(newColor) }
+                        ))
+                        .padding(.trailing, 20)
+                    }
                     Spacer()
                 }
-                SceneKitView(color: $color)
-                    .frame(height: 240)
-                CarInfo()
-                HStack {
-                    WltpSection()
-                    TorqueSection()
-                }
-                CarsSection(carViewModel: carViewModel)
+                .padding(.top, 80)
+                .zIndex(2)
             }
-            VStack {
-                HStack {
-                    Spacer()
-                    ColorPicker("", selection: Binding(
-                        get: { swiftUIColor },
-                        set: { newColor in color = UIColor(newColor) }
-                    ))
-                    .padding(.trailing, 20)
-                }
-                Spacer()
-            }
-            .padding(.top, 80)
-            .zIndex(2)
+            .edgesIgnoringSafeArea(.all)
+            .environmentObject(carViewModel)
         }
-        .edgesIgnoringSafeArea(.all)
-        .environmentObject(carViewModel)
     }
 }

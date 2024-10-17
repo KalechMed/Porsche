@@ -17,7 +17,7 @@ class CarViewModel: ObservableObject {
             }
         }
     }
-    private var audioPlayer: AVAudioPlayer?
+    var audioPlayer: AVAudioPlayer?
     init() {
         loadCars()
         if !cars.isEmpty {
@@ -32,12 +32,15 @@ class CarViewModel: ObservableObject {
                 self.cars = try decoder.decode([Car].self, from: data)
             } catch {
                 print("Error decoding JSON: \(error)")
+                self.cars = []
             }
         } else {
             print("File not found in bundle")
+            self.cars = []
         }
     }
     private func playEngineSound(for soundName: String) {
+        print("Playing sound: \(soundName)")
         guard let url = Bundle.main.url(forResource: soundName, withExtension: "mp3") else {
             print("Sound file not found")
             return
