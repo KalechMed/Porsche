@@ -46,7 +46,7 @@ Select your target device or simulator and press `Cmd + R` to build and run.
 4. **Install SwiftLint (optional)**:
    ```sh
    brew install swiftlint
-```
+    ```
 ## Project Structure
 
 The project is organized into a clean architecture that separates concerns and enhances maintainability. It follows the MVVM (Model-View-ViewModel) pattern, ensuring a clear distinction between the user interface and the business logic. Below is an overview of the project's directory structure:
@@ -74,16 +74,10 @@ PorscheShowcaseApp/
 
 ## Screenshots
 
-![App GIF](https://drive.google.com/file/d/1KNx4m1K7y8k43IkgYAckgHFW5Y6WVAP_/view?usp=sharing)  
+![App GIF](assets/demo.gif) 
 *This is a GIF demonstrating the app's interactive features.*
 
-## List of Frameworks
 
-| Framework                                                             | Description                                                                         |
-| --------------------------------------------------------------------- | ----------------------------------------------------------------------------------- |
-| [SwiftUI](https://developer.apple.com/documentation/swiftui)          | A modern way to declare user interfaces for any Apple platform.                     |
-| [SceneKit](https://developer.apple.com/documentation/scenekit)        | A high-level 3D graphics framework for rendering 3D scenes and models.             |
-| [AVFoundation](https://developer.apple.com/documentation/avfoundation) | A framework for working with audiovisual media, providing support for sound effects.|
 
 
 ## Future Enhancements
