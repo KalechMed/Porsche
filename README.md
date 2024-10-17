@@ -74,7 +74,7 @@ PorscheShowcaseApp/
 
 ## Screenshots
 
-![App GIF](assets/demo.gif) 
+![App GIF](demo.gif) 
 *This is a GIF demonstrating the app's interactive features.*
 
 
