@@ -6,6 +6,11 @@
 
 This Porsche app was built using **Swift**, **SwiftUI**, and **SceneKit** to display Porsche car models with interactive 3D features. It follows the **MVVM** (Model-View-ViewModel) architecture, promoting a clean separation of concerns for better maintainability. The app delivers detailed car information and enhances the user experience with pan gestures and authentic engine sound effects.
 
+## Demo
+
+<p align="center" width="100%">
+    <img width="300" src="./demo.gif"> 
+</p>
 
 ### Specifications
 
@@ -71,17 +76,6 @@ PorscheShowcaseApp/
 │       ├── 3D Models/
 │       └── Sound Effects/
 ```
-
-## Screenshots
-
-
-
-<p align="center" width="100%">
-    <img width="300" src="./demo.gif"> 
-</p>
-
-
-
 
 
 ## Future Enhancements
