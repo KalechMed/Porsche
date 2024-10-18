@@ -78,7 +78,6 @@ PorscheShowcaseApp/
 
 <p align="center" width="100%">
     <img width="300" src="./demo.gif"> 
-    *This is a GIF demonstrating the app's interactive features.*
 </p>
 
 
