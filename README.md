@@ -13,6 +13,7 @@ This Porsche app was built using **Swift**, **SwiftUI**, and **SceneKit** to dis
     <img width="300" src="./demo.gif"> 
 </p>
 <p align="center">*Note: The demo may take a few seconds to load.*</p>
+<p align="center">it's worth it to wait😉</p>
 
 
 ### Specifications
