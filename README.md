@@ -74,12 +74,11 @@ PorscheShowcaseApp/
 
 ## Screenshots
 
-<center>
-  <img src="./demo.gif" alt="App GIF" width="300"/>
-</center>
-*This is a GIF demonstrating the app's interactive features.*
+
+
 <p align="center" width="100%">
-    <img width="15%" src="https://i.stack.imgur.com/RJj4x.png"> 
+    <img width="300" src="./demo.gif"> 
+    *This is a GIF demonstrating the app's interactive features.*
 </p>
 
 
