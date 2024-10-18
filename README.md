@@ -1,4 +1,5 @@
 [![swift-version](https://img.shields.io/badge/swift-5.9-brightgreen.svg)](https://github.com/apple/swift)
+[![ios-version](https://img.shields.io/badge/iOS-17-brightgreen.svg)](https://developer.apple.com/ios/)
 [![License](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
 
 
